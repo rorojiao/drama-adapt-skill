@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 用户自己的测试项目（不提交到 GitHub）
+test/
+
+# 临时文件
+*.swp
+*.swo
+*~
+
+# 编辑器配置
+.vscode/
+.idea/

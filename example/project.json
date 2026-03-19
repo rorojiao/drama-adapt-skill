@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "created_at": "2026-03-19T21:10:00+08:00",
+  "novel_file": "novel.txt",
+  "novel_chars": 5000,
+  "settings": {
+    "genre": "末世生存",
+    "tone": "紧张刺激，生死抉择",
+    "total_episodes": 6,
+    "episode_duration": "60-90",
+    "episode_script_chars": "500-800",
+    "strategy": "忠实改编",
+    "paywall_after": 3
+  },
+  "stages": {
+    "1_analysis": { "status": "done", "file": "analysis.md" },
+    "2_characters": { "status": "approved", "file": "characters.md" },
+    "3_outline": { "status": "approved", "file": "outline.md" },
+    "4_scripts": { "status": "done", "total_episodes": 6 },
+    "5_qc": { "status": "done", "file": "qc_report.md", "score": 98.6 }
+  },
+  "characters": [
+    { "id": "char_01", "name": "林远", "role": "男主", "brief": "普通上班族，拥有隐藏提示技能" },
+    { "id": "char_02", "name": "苏晚", "role": "女主", "brief": "勇敢女玩家，与林远组队求生" }
+  ],
+  "episodes": [
+    { "ep": 1, "title": "治愈系游戏？", "file": "scripts/ep001.md", "status": "done" },
+    { "ep": 2, "title": "铁管英雄", "file": "scripts/ep002.md", "status": "done" },
+    { "ep": 3, "title": "太平间的呼吸", "file": "scripts/ep003.md", "status": "done" },
+    { "ep": 4, "title": "信任", "file": "scripts/ep004.md", "status": "done" },
+    { "ep": 5, "title": "黎明冲刺", "file": "scripts/ep005.md", "status": "done" },
+    { "ep": 6, "title": "游戏……是真的", "file": "scripts/ep006.md", "status": "done" }
+  ],
+  "current_batch": 2
+}
